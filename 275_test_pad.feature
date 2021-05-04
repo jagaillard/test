@@ -4,6 +4,6 @@
 Fonctionnalité: test_pad
   
   Scénario: 
-    Soit  le test
-    Quand je
-    Alors executé
+    Soit  un test Junit
+    Quand Je lance l'exécution du job
+    Alors Les résultats sont poussés sur SquashTM
