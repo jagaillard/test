@@ -1,9 +1,10 @@
 # Automation priority: null
 # Test case importance: LOW
-# language: fr
+# language: en
 Fonctionnalité: test_pad
   
-  Scénario: 
-    Soit  un test Junit
-    Quand Je lance l'exécution du job
-    Alors Les résultats sont poussés sur SquashTM
+  
+  Scenario: 
+    Given test_pad
+    When I execute
+    Then test is ok
