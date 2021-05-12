@@ -1,10 +1,11 @@
 # Automation priority: null
 # Test case importance: LOW
-# language: en
+# language: fr
 Fonctionnalité: test_pad
   
   
-  Scenario: 
-    Given test_pad
-    When I execute
-    Then test is ok
+  
+  Scénario: 
+    Soit test_pad
+    Quand I execute
+    Alors test is ok
